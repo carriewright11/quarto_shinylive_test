@@ -1,5 +1,16 @@
 project:
-  title: "quarto_shinylive_test"
+  type: website
 
-editor: visual
+website:
+  title: "today"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
